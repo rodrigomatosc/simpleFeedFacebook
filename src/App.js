@@ -1,8 +1,16 @@
 import React from "react";
 import "./App.css";
 
+import Header from "./components/Header";
+import FeedList from "./components/FeedList";
+
 function App() {
-  return <h1>Ol Rodrigo</h1>;
+  return (
+    <>
+      <Header />
+      <FeedList />
+    </>
+  );
 }
 
 export default App;
